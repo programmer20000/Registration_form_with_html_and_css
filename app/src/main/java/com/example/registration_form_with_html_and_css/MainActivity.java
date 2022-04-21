@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("assets\\html\\index.html");
+        webView.loadUrl("app\\src\\main\\assets\\html\\index.html");
     }
 }
